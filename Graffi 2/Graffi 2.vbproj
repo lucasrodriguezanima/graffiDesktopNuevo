@@ -106,6 +106,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion\Conexion.vb" />
+    <Compile Include="Entidades\artista.vb" />
+    <Compile Include="Entidades\Comprar.vb" />
+    <Compile Include="Entidades\Estilos.vb" />
+    <Compile Include="Entidades\graffiti.vb" />
+    <Compile Include="Entidades\Realizar.vb" />
+    <Compile Include="Entidades\Similaar.vb" />
+    <Compile Include="Entidades\Telefonos.vb" />
+    <Compile Include="Entidades\visitante1.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
