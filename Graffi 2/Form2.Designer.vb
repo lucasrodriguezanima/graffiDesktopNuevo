@@ -25,7 +25,6 @@ Partial Class HOME
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Like2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel_Home = New System.Windows.Forms.Panel()
         Me.Username = New System.Windows.Forms.Label()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
@@ -34,7 +33,6 @@ Partial Class HOME
         Me.Boton_panel = New System.Windows.Forms.Button()
         CType(Me.Like2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_Home.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Like1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -69,14 +67,6 @@ Partial Class HOME
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 1
         Me.PictureBox2.TabStop = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Location = New System.Drawing.Point(688, 1)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(100, 50)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
         '
         'Panel_Home
         '
@@ -150,13 +140,11 @@ Partial Class HOME
         Me.Controls.Add(Me.Panel_Home)
         Me.Controls.Add(Me.Like2)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Like3)
         Me.Name = "HOME"
         Me.Text = "Home"
         CType(Me.Like2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_Home.ResumeLayout(False)
         Me.Panel_Home.PerformLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
@@ -166,8 +154,6 @@ Partial Class HOME
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Like2 As PictureBox

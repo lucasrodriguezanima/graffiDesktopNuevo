@@ -24,10 +24,10 @@ Partial Class Registrate
     Private Sub InitializeComponent()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.txt_name = New System.Windows.Forms.TextBox()
+        Me.txt_nombre_de_usuario1 = New System.Windows.Forms.TextBox()
+        Me.txt_telefono = New System.Windows.Forms.TextBox()
+        Me.txt_apellido = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -61,33 +61,33 @@ Partial Class Registrate
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Registrate"
         '
-        'TextBox1
+        'txt_name
         '
-        Me.TextBox1.Location = New System.Drawing.Point(316, 96)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 2
+        Me.txt_name.Location = New System.Drawing.Point(316, 96)
+        Me.txt_name.Name = "txt_name"
+        Me.txt_name.Size = New System.Drawing.Size(100, 20)
+        Me.txt_name.TabIndex = 2
         '
-        'TextBox2
+        'txt_nombre_de_usuario1
         '
-        Me.TextBox2.Location = New System.Drawing.Point(316, 220)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 3
+        Me.txt_nombre_de_usuario1.Location = New System.Drawing.Point(316, 220)
+        Me.txt_nombre_de_usuario1.Name = "txt_nombre_de_usuario1"
+        Me.txt_nombre_de_usuario1.Size = New System.Drawing.Size(100, 20)
+        Me.txt_nombre_de_usuario1.TabIndex = 3
         '
-        'TextBox3
+        'txt_telefono
         '
-        Me.TextBox3.Location = New System.Drawing.Point(316, 183)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 4
+        Me.txt_telefono.Location = New System.Drawing.Point(316, 183)
+        Me.txt_telefono.Name = "txt_telefono"
+        Me.txt_telefono.Size = New System.Drawing.Size(100, 20)
+        Me.txt_telefono.TabIndex = 4
         '
-        'TextBox4
+        'txt_apellido
         '
-        Me.TextBox4.Location = New System.Drawing.Point(316, 140)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 5
+        Me.txt_apellido.Location = New System.Drawing.Point(316, 140)
+        Me.txt_apellido.Name = "txt_apellido"
+        Me.txt_apellido.Size = New System.Drawing.Size(100, 20)
+        Me.txt_apellido.TabIndex = 5
         '
         'Label2
         '
@@ -185,10 +185,10 @@ Partial Class Registrate
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txt_apellido)
+        Me.Controls.Add(Me.txt_telefono)
+        Me.Controls.Add(Me.txt_nombre_de_usuario1)
+        Me.Controls.Add(Me.txt_name)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Registrate"
@@ -201,10 +201,10 @@ Partial Class Registrate
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents txt_name As TextBox
+    Friend WithEvents txt_nombre_de_usuario1 As TextBox
+    Friend WithEvents txt_telefono As TextBox
+    Friend WithEvents txt_apellido As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label

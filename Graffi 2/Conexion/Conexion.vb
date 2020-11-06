@@ -7,10 +7,11 @@
             cadenadeconexion = "Server=127.0.0.1;Port=5432;User Id='postgres';Password='root';Database=Graffi"
             conexion.ConnectionString = cadenadeconexion
             conexion.Open()
+
+
         Catch ex As Exception
             conexion.Close()
             Throw ex
-
         End Try
 
 

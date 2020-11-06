@@ -411,3 +411,5 @@ C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi 2.vbproj.Co
 C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi 2.exe
 C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi 2.xml
 C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi 2.pdb
+C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi_2.Artista_vista.resources
+C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi_2.Usuario_vista.resources
