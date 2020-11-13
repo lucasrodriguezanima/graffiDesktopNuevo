@@ -8,7 +8,8 @@
             Dim cmd = New Npgsql.NpgsqlCommand()
             cmd.Connection = conexion
             Dim cadenadeconexion As String
-            cadenadeconexion = "insert into usuarios(correo_electronico, nombre_completo, dir_nro, calle, nombre_de_usuario, password, barrio) values  (@correo_electronico,@nombre_completo, @dir_nro, @calle ,@nombre_de_usuario, @password ,@barrio);"
+
+            cadenadeconexion = "Insert into usuarios(correo_electronico, nombre_completo, dir_nro, calle, nombre_de_usuario, password, barrio) values  (@correo_electronico,@nombre_completo, @dir_nro, @calle ,@nombre_de_usuario, @password ,@barrio);"
             cmd.CommandText = cadenadeconexion
             cmd.Parameters.Add("@correo_electronico", NpgsqlTypes.NpgsqlDbType.Varchar, 30).Value = usuarioss._correo_electronico
             cmd.Parameters.Add("@nombre_completo", NpgsqlTypes.NpgsqlDbType.Varchar, 30).Value = usuarioss._nombre_completo
@@ -17,6 +18,7 @@
             cmd.Parameters.Add("@barrio", NpgsqlTypes.NpgsqlDbType.Varchar, 20).Value = usuarioss._barrio
             cmd.Parameters.Add("@nombre_de_usuario", NpgsqlTypes.NpgsqlDbType.Varchar, 20).Value = usuarioss._nombre_de_usuario
             cmd.Parameters.Add("@password", NpgsqlTypes.NpgsqlDbType.Integer).Value = usuarioss._password
+
             Dim resultado As Integer
             resultado = cmd.ExecuteNonQuery()
         Catch ex As Exception

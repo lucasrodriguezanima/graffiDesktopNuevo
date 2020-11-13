@@ -37,18 +37,25 @@ Partial Class Usuario_vista
         Me.Button1 = New System.Windows.Forms.Button()
         Me.correo_electronico_lbl = New System.Windows.Forms.Label()
         Me.txt_correoelectronico = New System.Windows.Forms.TextBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txt_password
         '
         Me.txt_password.Location = New System.Drawing.Point(180, 301)
         Me.txt_password.Name = "txt_password"
+        Me.txt_password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txt_password.Size = New System.Drawing.Size(246, 20)
         Me.txt_password.TabIndex = 32
         '
         'Label6
         '
         Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.White
         Me.Label6.Location = New System.Drawing.Point(99, 301)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(53, 13)
@@ -58,6 +65,7 @@ Partial Class Usuario_vista
         'Label5
         '
         Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(74, 260)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(100, 13)
@@ -67,6 +75,7 @@ Partial Class Usuario_vista
         'Label4
         '
         Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(104, 225)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(34, 13)
@@ -76,6 +85,7 @@ Partial Class Usuario_vista
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(104, 189)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(30, 13)
@@ -85,6 +95,7 @@ Partial Class Usuario_vista
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(99, 157)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(41, 13)
@@ -94,6 +105,7 @@ Partial Class Usuario_vista
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(80, 116)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(91, 13)
@@ -147,6 +159,7 @@ Partial Class Usuario_vista
         'correo_electronico_lbl
         '
         Me.correo_electronico_lbl.AutoSize = True
+        Me.correo_electronico_lbl.BackColor = System.Drawing.Color.White
         Me.correo_electronico_lbl.Location = New System.Drawing.Point(80, 81)
         Me.correo_electronico_lbl.Name = "correo_electronico_lbl"
         Me.correo_electronico_lbl.Size = New System.Drawing.Size(94, 13)
@@ -160,11 +173,60 @@ Partial Class Usuario_vista
         Me.txt_correoelectronico.Size = New System.Drawing.Size(246, 20)
         Me.txt_correoelectronico.TabIndex = 33
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Graffi_2.My.Resources.Resources.home_page
+        Me.PictureBox1.Location = New System.Drawing.Point(-1, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(836, 449)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 35
+        Me.PictureBox1.TabStop = False
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.SystemColors.Window
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Label8.Location = New System.Drawing.Point(352, 48)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(167, 24)
+        Me.Label8.TabIndex = 38
+        Me.Label8.Text = "Bienvenido a Graffi"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.SystemColors.Window
+        Me.Label7.ForeColor = System.Drawing.Color.Khaki
+        Me.Label7.Location = New System.Drawing.Point(296, 32)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(283, 13)
+        Me.Label7.TabIndex = 37
+        Me.Label7.Text = "______________________________________________"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.SystemColors.Window
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Label9.Location = New System.Drawing.Point(385, 9)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(93, 24)
+        Me.Label9.TabIndex = 36
+        Me.Label9.Text = "Registrate"
+        '
         'Usuario_vista
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.BackgroundImage = Global.Graffi_2.My.Resources.Resources.home_page1
+        Me.ClientSize = New System.Drawing.Size(831, 450)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.correo_electronico_lbl)
         Me.Controls.Add(Me.txt_correoelectronico)
         Me.Controls.Add(Me.txt_password)
@@ -180,8 +242,11 @@ Partial Class Usuario_vista
         Me.Controls.Add(Me.txt_dir_nro)
         Me.Controls.Add(Me.txt_nombre_completo)
         Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Name = "Usuario_vista"
         Me.Text = "Usuario_vista"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -202,4 +267,8 @@ Partial Class Usuario_vista
     Friend WithEvents Button1 As Button
     Friend WithEvents correo_electronico_lbl As Label
     Friend WithEvents txt_correoelectronico As TextBox
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label9 As Label
 End Class

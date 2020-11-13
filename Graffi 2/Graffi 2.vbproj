@@ -121,23 +121,10 @@
     <Compile Include="Entidades\Telefonos.vb" />
     <Compile Include="Entidades\usuarios.vb" />
     <Compile Include="Entidades\visitante1.vb" />
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Form2.Designer.vb">
       <DependentUpon>Form2.vb</DependentUpon>
     </Compile>
     <Compile Include="Form2.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3.Designer.vb">
-      <DependentUpon>Form3.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form3.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form4.Designer.vb">
@@ -155,6 +142,12 @@
     <Compile Include="Logica\Telefonos_logica.vb" />
     <Compile Include="Logica\Usuarios_logica.vb" />
     <Compile Include="Logica\Visitante_logica.vb" />
+    <Compile Include="ModificarGraffitii.Designer.vb">
+      <DependentUpon>ModificarGraffitii.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarGraffitii.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -190,17 +183,14 @@
     <EmbeddedResource Include="Artista_vista.resx">
       <DependentUpon>Artista_vista.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarGraffitii.resx">
+      <DependentUpon>ModificarGraffitii.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -234,6 +224,8 @@
   <ItemGroup>
     <None Include="Resources\5f8a1ea9c90ceed8d92999bc824417eb-icono-del-coraz--n-de-instagram-by-vexels.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\home-page1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

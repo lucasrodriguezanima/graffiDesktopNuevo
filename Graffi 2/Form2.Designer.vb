@@ -26,6 +26,7 @@ Partial Class HOME
         Me.Like2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Panel_Home = New System.Windows.Forms.Panel()
+        Me.Abm_Graffiti = New System.Windows.Forms.Button()
         Me.Username = New System.Windows.Forms.Label()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Like1 = New System.Windows.Forms.PictureBox()
@@ -79,6 +80,15 @@ Partial Class HOME
         Me.Panel_Home.Size = New System.Drawing.Size(156, 454)
         Me.Panel_Home.TabIndex = 4
         Me.Panel_Home.Visible = False
+        '
+        'Abm_Graffiti
+        '
+        Me.Abm_Graffiti.Location = New System.Drawing.Point(412, 299)
+        Me.Abm_Graffiti.Name = "Abm_Graffiti"
+        Me.Abm_Graffiti.Size = New System.Drawing.Size(75, 23)
+        Me.Abm_Graffiti.TabIndex = 6
+        Me.Abm_Graffiti.Text = "ABM_Graffiti"
+        Me.Abm_Graffiti.UseVisualStyleBackColor = True
         '
         'Username
         '
@@ -134,6 +144,7 @@ Partial Class HOME
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Abm_Graffiti)
         Me.Controls.Add(Me.Boton_panel)
         Me.Controls.Add(Me.Like1)
         Me.Controls.Add(Me.PictureBox4)
@@ -163,4 +174,5 @@ Partial Class HOME
     Friend WithEvents Like3 As PictureBox
     Friend WithEvents Boton_panel As Button
     Public WithEvents Panel_Home As Panel
+    Friend WithEvents Abm_Graffiti As Button
 End Class

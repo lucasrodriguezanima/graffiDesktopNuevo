@@ -402,7 +402,6 @@ C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi 2.vbprojAss
 C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi 2.exe.config
 C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi_2.Login.resources
 C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi_2.HOME.resources
-C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi_2.Registrate.resources
 C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi_2.Form4.resources
 C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi_2.Resources.resources
 C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi 2.vbproj.GenerateResource.cache
@@ -411,5 +410,5 @@ C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi 2.vbproj.Co
 C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi 2.exe
 C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi 2.xml
 C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi 2.pdb
-C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi_2.Artista_vista.resources
 C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi_2.Usuario_vista.resources
+C:\Users\Alumno\Desktop\graffiDesktopNuevo\Graffi 2\obj\Debug\Graffi_2.ModificarGraffitii.resources

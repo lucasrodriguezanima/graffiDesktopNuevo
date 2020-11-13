@@ -18,7 +18,11 @@
 
     End Sub
 
-    Private Sub HOME_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Panel_Home.Hide()
+    ' Private Sub HOME_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    '    Panel_Home.Hide()
+    'End Sub
+
+    Private Sub Abm_Graffiti_Click(sender As Object, e As EventArgs) Handles Abm_Graffiti.Click
+        ModificarGraffitii.Show()
     End Sub
 End Class

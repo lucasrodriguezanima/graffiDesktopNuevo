@@ -1,5 +1,6 @@
 ﻿Public Class Usuario_vista
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        HOME.Show()
         Dim correo_electronico As String
         Dim nombre_completo As String
         Dim dir_nro As Integer
