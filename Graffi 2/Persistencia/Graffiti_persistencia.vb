@@ -19,7 +19,7 @@ Public Class Graffiti_persistencia
             Dim resultados As Integer
             resultados = cmd.ExecuteNonQuery()
         Catch ex As Exception
-            Throw ex
+
 
         Finally
             conexion.Close()
@@ -63,6 +63,7 @@ Public Class Graffiti_persistencia
             cadenadecomandoS = "delete  from graffiti  where id_graffiti = @id_graffiti;"
             cmd.CommandText = cadenadecomandoS
 
+
             Dim Resultados As Integer
             Resultados = cmd.ExecuteNonQuery()
         Catch ex As Exception
@@ -81,17 +82,15 @@ Public Class Graffiti_persistencia
             cmd.Connection = conexion
 
             Dim cadenadeconexion As String
+
             cadenadeconexion = "select * from graffiti"
             cmd.CommandText = cadenadeconexion
-
-            'Dim resultado As Integer
-            ' resultado = cmd.ExecuteReader()
 
             Dim Lector As Npgsql.NpgsqlDataReader = cmd.ExecuteReader
 
             While Lector.Read()
                 Dim graffitinuevo As New graffiti
-                graffitinuevo._id_graffiti = (Lector(0).ToString)
+                graffitinuevo._id_graffiti = Convert.ToInt32(Lector(0).ToString)
                 graffitinuevo._nombre = Lector(1).ToString
                 graffitinuevo._diseño = Lector(2).ToString
                 lista.Add(graffitinuevo)
